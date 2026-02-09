@@ -1,0 +1,53 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="kPCSQcYAurKd1mhOI0VL">
+    <mxGraphModel dx="2066" dy="1137" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-Jmd8SfTR_UTKhfdIg3G-7" edge="1" parent="1" source="-Jmd8SfTR_UTKhfdIg3G-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-Jmd8SfTR_UTKhfdIg3G-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Jmd8SfTR_UTKhfdIg3G-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Offline sensor data" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="-Jmd8SfTR_UTKhfdIg3G-8" edge="1" parent="1" source="-Jmd8SfTR_UTKhfdIg3G-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-Jmd8SfTR_UTKhfdIg3G-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Jmd8SfTR_UTKhfdIg3G-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Online sensor data" vertex="1">
+          <mxGeometry height="60" width="120" x="70" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="-Jmd8SfTR_UTKhfdIg3G-9" edge="1" parent="1" source="-Jmd8SfTR_UTKhfdIg3G-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="-Jmd8SfTR_UTKhfdIg3G-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Jmd8SfTR_UTKhfdIg3G-10" connectable="0" parent="-Jmd8SfTR_UTKhfdIg3G-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="kernel functions" vertex="1">
+          <mxGeometry relative="1" x="-0.2333" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Jmd8SfTR_UTKhfdIg3G-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Neural Network" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="-Jmd8SfTR_UTKhfdIg3G-11" edge="1" parent="1" source="-Jmd8SfTR_UTKhfdIg3G-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="-Jmd8SfTR_UTKhfdIg3G-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Jmd8SfTR_UTKhfdIg3G-12" connectable="0" parent="-Jmd8SfTR_UTKhfdIg3G-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="adaptive factors" vertex="1">
+          <mxGeometry relative="1" x="-0.224" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-Jmd8SfTR_UTKhfdIg3G-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Adaptive factor update" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="-Jmd8SfTR_UTKhfdIg3G-14" edge="1" parent="1" source="-Jmd8SfTR_UTKhfdIg3G-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="-Jmd8SfTR_UTKhfdIg3G-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-Jmd8SfTR_UTKhfdIg3G-6" parent="1" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="580" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="-Jmd8SfTR_UTKhfdIg3G-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Estimated disturbance" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="450" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
